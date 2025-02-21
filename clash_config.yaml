@@ -260,35 +260,35 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 日本JP-T-oUJn
-  - 日本JP-T-Rvm8
-  - 日本JP-T-KwGS
-  - 日本JP-T-7fs6
-  - 日本JP-T-pR3s
-  - 日本JP-T-gEwa
-  - 日本JP-T-SiE6
-  - 日本JP-T-TzPC
   - 日本JP-T-CjtL
   - 日本JP-T-ZtHY
-  - 新加坡SG-T-jC0K
   - 新加坡SG-T-PkxV
+  - 新加坡SG-T-jC0K
   - 新加坡SG-T-3plv
-  - 美国USLA-T-GPT-ltA2
-  - 美国USLA-T-GPT-Y2nU
-  - 美国USLA-T-GPT-tPYz
+  - 台湾WAP-T-GPT-OMOZ
   - 台湾WAP-T-GPT-S4e5
-  - 台湾WAP-T-GPT-rfqh
-  - 台湾WAP-T-GPT-P9vS
-  - 台湾WAP-T-GPT-D5GQ
-  - 台湾WAP-T-GPT-PMfx
-  - 台湾WAP-T-GPT-OuC9
-  - 台湾WAP-T-GPT
+  - 台湾WAP-T-GPT-7DFd
   - 澳大利亚AU-T-B4AQ
   - 澳大利亚AU-T-WtWF
-  - 越南VN-T-sNz8
   - 澳大利亚AU-T-ulWr
-  - 台湾WAP-T-GPT-7DFd
-  - 台湾WAP-T-GPT-OMOZ
+  - 日本JP-T-SiE6
+  - 台湾WAP-T-GPT-PMfx
+  - 台湾WAP-T-GPT
+  - 日本JP-T-TzPC
+  - 台湾WAP-T-GPT-OuC9
+  - 台湾WAP-T-GPT-D5GQ
+  - 台湾WAP-T-GPT-P9vS
+  - 台湾WAP-T-GPT-rfqh
+  - 日本JP-T-pR3s
+  - 日本JP-T-oUJn
+  - 日本JP-T-KwGS
+  - 日本JP-T-7fs6
+  - 日本JP-T-Rvm8
+  - 日本JP-T-gEwa
+  - 越南VN-T-sNz8
+  - 美国USLA-T-GPT-tPYz
+  - 美国USLA-T-GPT-Y2nU
+  - 美国USLA-T-GPT-ltA2
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -296,69 +296,69 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 日本JP-T-oUJn
-  - 日本JP-T-Rvm8
-  - 日本JP-T-KwGS
-  - 日本JP-T-7fs6
-  - 日本JP-T-pR3s
-  - 日本JP-T-gEwa
-  - 日本JP-T-SiE6
-  - 日本JP-T-TzPC
   - 日本JP-T-CjtL
   - 日本JP-T-ZtHY
-  - 新加坡SG-T-jC0K
   - 新加坡SG-T-PkxV
+  - 新加坡SG-T-jC0K
   - 新加坡SG-T-3plv
-  - 美国USLA-T-GPT-ltA2
-  - 美国USLA-T-GPT-Y2nU
-  - 美国USLA-T-GPT-tPYz
+  - 台湾WAP-T-GPT-OMOZ
   - 台湾WAP-T-GPT-S4e5
-  - 台湾WAP-T-GPT-rfqh
-  - 台湾WAP-T-GPT-P9vS
-  - 台湾WAP-T-GPT-D5GQ
-  - 台湾WAP-T-GPT-PMfx
-  - 台湾WAP-T-GPT-OuC9
-  - 台湾WAP-T-GPT
+  - 台湾WAP-T-GPT-7DFd
   - 澳大利亚AU-T-B4AQ
   - 澳大利亚AU-T-WtWF
-  - 越南VN-T-sNz8
   - 澳大利亚AU-T-ulWr
-  - 台湾WAP-T-GPT-7DFd
-  - 台湾WAP-T-GPT-OMOZ
+  - 日本JP-T-SiE6
+  - 台湾WAP-T-GPT-PMfx
+  - 台湾WAP-T-GPT
+  - 日本JP-T-TzPC
+  - 台湾WAP-T-GPT-OuC9
+  - 台湾WAP-T-GPT-D5GQ
+  - 台湾WAP-T-GPT-P9vS
+  - 台湾WAP-T-GPT-rfqh
+  - 日本JP-T-pR3s
+  - 日本JP-T-oUJn
+  - 日本JP-T-KwGS
+  - 日本JP-T-7fs6
+  - 日本JP-T-Rvm8
+  - 日本JP-T-gEwa
+  - 越南VN-T-sNz8
+  - 美国USLA-T-GPT-tPYz
+  - 美国USLA-T-GPT-Y2nU
+  - 美国USLA-T-GPT-ltA2
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 日本JP-T-oUJn
-  - 日本JP-T-Rvm8
-  - 日本JP-T-KwGS
-  - 日本JP-T-7fs6
-  - 日本JP-T-pR3s
-  - 日本JP-T-gEwa
-  - 日本JP-T-SiE6
-  - 日本JP-T-TzPC
   - 日本JP-T-CjtL
   - 日本JP-T-ZtHY
-  - 新加坡SG-T-jC0K
   - 新加坡SG-T-PkxV
+  - 新加坡SG-T-jC0K
   - 新加坡SG-T-3plv
-  - 美国USLA-T-GPT-ltA2
-  - 美国USLA-T-GPT-Y2nU
-  - 美国USLA-T-GPT-tPYz
+  - 台湾WAP-T-GPT-OMOZ
   - 台湾WAP-T-GPT-S4e5
-  - 台湾WAP-T-GPT-rfqh
-  - 台湾WAP-T-GPT-P9vS
-  - 台湾WAP-T-GPT-D5GQ
-  - 台湾WAP-T-GPT-PMfx
-  - 台湾WAP-T-GPT-OuC9
-  - 台湾WAP-T-GPT
+  - 台湾WAP-T-GPT-7DFd
   - 澳大利亚AU-T-B4AQ
   - 澳大利亚AU-T-WtWF
-  - 越南VN-T-sNz8
   - 澳大利亚AU-T-ulWr
-  - 台湾WAP-T-GPT-7DFd
-  - 台湾WAP-T-GPT-OMOZ
+  - 日本JP-T-SiE6
+  - 台湾WAP-T-GPT-PMfx
+  - 台湾WAP-T-GPT
+  - 日本JP-T-TzPC
+  - 台湾WAP-T-GPT-OuC9
+  - 台湾WAP-T-GPT-D5GQ
+  - 台湾WAP-T-GPT-P9vS
+  - 台湾WAP-T-GPT-rfqh
+  - 日本JP-T-pR3s
+  - 日本JP-T-oUJn
+  - 日本JP-T-KwGS
+  - 日本JP-T-7fs6
+  - 日本JP-T-Rvm8
+  - 日本JP-T-gEwa
+  - 越南VN-T-sNz8
+  - 美国USLA-T-GPT-tPYz
+  - 美国USLA-T-GPT-Y2nU
+  - 美国USLA-T-GPT-ltA2
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
