@@ -32,13 +32,6 @@ dns:
     - 240.0.0.0/4
     - 0.0.0.0/32
 proxies:
-- name: 美国USLA-T-GPT
-  type: trojan
-  server: usla.mjt000.com
-  port: 443
-  password: 5d335ddf-2ae7-4331-835d-6f9593fe8287
-  udp: true
-  sni: usla.mjt000.com
 - name: 台湾WAP-T-GPT
   type: trojan
   server: hinet.mjt000.com
@@ -54,13 +47,6 @@ proxies:
   udp: true
   sni: jp.mjt000.com
   skip-cert-verify: true
-- name: 美国USLA-T-GPT-3Y1T
-  type: trojan
-  server: usla.mjt000.com
-  port: 443
-  password: 79b25abf-8730-426a-ab47-7e92c6a68007
-  udp: true
-  sni: usla.mjt000.com
 - name: 台湾WAP-T-GPT-YsHI
   type: trojan
   server: hinet.mjt000.com
@@ -141,13 +127,6 @@ proxies:
   password: d384ad6d-d259-45eb-ba2e-1799fa426ed4
   udp: true
   sni: au.mjt000.com
-- name: 英国UK-T-9bTO
-  type: trojan
-  server: uk.mjt000.com
-  port: 443
-  password: d384ad6d-d259-45eb-ba2e-1799fa426ed4
-  udp: true
-  sni: uk.mjt000.com
 - name: 日本JP-T-oUJn
   type: trojan
   server: jp.mjt000.com
@@ -156,13 +135,6 @@ proxies:
   udp: true
   sni: jp.mjt000.com
   skip-cert-verify: true
-- name: 美国USLA-T-GPT-vy3b
-  type: trojan
-  server: usla.mjt000.com
-  port: 443
-  password: a6f0acd5-0852-432a-b191-854658db6a92
-  udp: true
-  sni: usla.mjt000.com
 - name: 台湾WAP-T-GPT-IPsy
   type: trojan
   server: hinet.mjt000.com
@@ -170,13 +142,6 @@ proxies:
   password: a6f0acd5-0852-432a-b191-854658db6a92
   udp: true
   sni: hinet.mjt000.com
-- name: 澳大利亚AU-T-3ZjF
-  type: trojan
-  server: au.mjt000.com
-  port: 443
-  password: a6f0acd5-0852-432a-b191-854658db6a92
-  udp: true
-  sni: au.mjt000.com
 - name: 日本JP-T-TzPC
   type: trojan
   server: jp.mjt000.com
@@ -185,13 +150,6 @@ proxies:
   udp: true
   sni: jp.mjt000.com
   skip-cert-verify: true
-- name: 美国USLA-T-GPT-pa4s
-  type: trojan
-  server: usla.mjt000.com
-  port: 443
-  password: 06322978-709f-423e-b10b-fc2a845d9564
-  udp: true
-  sni: usla.mjt000.com
 - name: 台湾WAP-T-GPT-P9vS
   type: trojan
   server: hinet.mjt000.com
@@ -206,13 +164,6 @@ proxies:
   password: 06322978-709f-423e-b10b-fc2a845d9564
   udp: true
   sni: vn.mjt000.com
-- name: 澳大利亚AU-T-vXXU
-  type: trojan
-  server: au.mjt000.com
-  port: 443
-  password: 06322978-709f-423e-b10b-fc2a845d9564
-  udp: true
-  sni: au.mjt000.com
 - name: 日本JP-T-7fs6
   type: trojan
   server: jp.mjt000.com
@@ -243,13 +194,6 @@ proxies:
   password: 61339b6c-df0c-423c-93a6-84d7d4e234d1
   udp: true
   sni: hinet.mjt000.com
-- name: 英国UK-T-2P69
-  type: trojan
-  server: uk.mjt000.com
-  port: 443
-  password: 61339b6c-df0c-423c-93a6-84d7d4e234d1
-  udp: true
-  sni: uk.mjt000.com
 - name: 新加坡SG-T-3plv
   type: trojan
   server: sg.mjt000.com
@@ -294,13 +238,6 @@ proxies:
   password: b6e5e633-a297-4614-88d5-49f94cda618f
   udp: true
   sni: hinet.mjt000.com
-- name: 澳大利亚AU-T-CdpO
-  type: trojan
-  server: au.mjt000.com
-  port: 443
-  password: b6e5e633-a297-4614-88d5-49f94cda618f
-  udp: true
-  sni: au.mjt000.com
 - name: 日本JP-T-SiE6
   type: trojan
   server: jp.mjt000.com
@@ -331,14 +268,6 @@ proxies:
   udp: true
   sni: jp.mjt000.com
   skip-cert-verify: true
-- name: 新加坡SG-T-t5eV
-  type: trojan
-  server: sg.mjt000.com
-  port: 443
-  password: 14c564dd-aad6-4bf7-b6bb-02a360132dbf
-  udp: true
-  sni: sg.mjt000.com
-  skip-cert-verify: true
 - name: 台湾WAP-T-GPT-OuC9
   type: trojan
   server: hinet.mjt000.com
@@ -354,13 +283,6 @@ proxies:
   udp: true
   sni: jp.mjt000.com
   skip-cert-verify: true
-- name: 美国USLA-T-GPT-sOP7
-  type: trojan
-  server: usla.mjt000.com
-  port: 443
-  password: 258e9750-51ef-4a49-9035-8409cc4649f8
-  udp: true
-  sni: usla.mjt000.com
 - name: 台湾WAP-T-GPT-gfRi
   type: trojan
   server: hinet.mjt000.com
@@ -380,52 +302,41 @@ proxy-groups:
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 日本JP-T-7fs6
-  - 台湾WAP-T-GPT-OuC9
   - 日本JP-T-KwGS
-  - 日本JP-T-CjtL
-  - 日本JP-T-SiE6
-  - 日本JP-T-ZtHY
-  - 日本JP-T-oUJn
-  - 日本JP-T-TzPC
-  - 日本JP-T-Rvm8
   - 日本JP-T-gEwa
-  - 台湾WAP-T-GPT-Orqz
-  - 台湾WAP-T-GPT-gfRi
   - 日本JP-T-pR3s
-  - 越南VN-T-sNz8
+  - 日本JP-T-ZtHY
+  - 日本JP-T-7fs6
+  - 日本JP-T-TzPC
+  - 日本JP-T-SiE6
+  - 日本JP-T-oUJn
+  - 日本JP-T-CjtL
+  - 日本JP-T-Rvm8
+  - 台湾WAP-T-GPT-OMOZ
   - 台湾WAP-T-GPT-S4e5
+  - 台湾WAP-T-GPT-7DFd
+  - 台湾WAP-T-GPT-Orqz
+  - 台湾WAP-T-GPT-rfqh
+  - 台湾WAP-T-GPT-YsHI
+  - 台湾WAP-T-GPT-IPsy
+  - 台湾WAP-T-GPT-OuC9
   - 台湾WAP-T-GPT-D5GQ
   - 台湾WAP-T-GPT-P9vS
-  - 澳大利亚AU-T-ulWr
-  - 台湾WAP-T-GPT-OMOZ
-  - 台湾WAP-T-GPT-rfqh
-  - 台湾WAP-T-GPT-7DFd
-  - 台湾WAP-T-GPT
-  - 澳大利亚AU-T-WtWF
-  - 台湾WAP-T-GPT-YsHI
-  - 台湾WAP-T-GPT-PMfx
-  - 台湾WAP-T-GPT-IPsy
-  - 美国USLA-T-GPT-tPYz
-  - 美国USLA-T-GPT-ltA2
-  - 美国USLA-T-GPT-3Y1T
-  - 澳大利亚AU-T-vXXU
-  - 澳大利亚AU-T-3ZjF
-  - 英国UK-T-2P69
-  - 美国USLA-T-GPT-Y2nU
-  - 美国USLA-T-GPT
-  - 美国USLA-T-GPT-sOP7
-  - 新加坡SG-T-PkxV
-  - 新加坡SG-T-t5eV
-  - 英国UK-T-9bTO
-  - 新加坡SG-T-jC0K
+  - 台湾WAP-T-GPT-gfRi
   - 澳大利亚AU-T-B4AQ
-  - 美国USLA-T-GPT-pa4s
-  - 澳大利亚AU-T-FTDp
-  - 美国USLA-T-GPT-vy3b
-  - 澳大利亚AU-T-QzUC
+  - 澳大利亚AU-T-WtWF
+  - 台湾WAP-T-GPT
+  - 澳大利亚AU-T-ulWr
+  - 美国USLA-T-GPT-ltA2
+  - 台湾WAP-T-GPT-PMfx
+  - 美国USLA-T-GPT-Y2nU
+  - 美国USLA-T-GPT-tPYz
   - 新加坡SG-T-3plv
-  - 澳大利亚AU-T-CdpO
+  - 越南VN-T-sNz8
+  - 新加坡SG-T-jC0K
+  - 新加坡SG-T-PkxV
+  - 澳大利亚AU-T-FTDp
+  - 澳大利亚AU-T-QzUC
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
@@ -433,103 +344,81 @@ proxy-groups:
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
   proxies:
-  - 日本JP-T-7fs6
-  - 台湾WAP-T-GPT-OuC9
   - 日本JP-T-KwGS
-  - 日本JP-T-CjtL
-  - 日本JP-T-SiE6
-  - 日本JP-T-ZtHY
-  - 日本JP-T-oUJn
-  - 日本JP-T-TzPC
-  - 日本JP-T-Rvm8
   - 日本JP-T-gEwa
-  - 台湾WAP-T-GPT-Orqz
-  - 台湾WAP-T-GPT-gfRi
   - 日本JP-T-pR3s
-  - 越南VN-T-sNz8
+  - 日本JP-T-ZtHY
+  - 日本JP-T-7fs6
+  - 日本JP-T-TzPC
+  - 日本JP-T-SiE6
+  - 日本JP-T-oUJn
+  - 日本JP-T-CjtL
+  - 日本JP-T-Rvm8
+  - 台湾WAP-T-GPT-OMOZ
   - 台湾WAP-T-GPT-S4e5
+  - 台湾WAP-T-GPT-7DFd
+  - 台湾WAP-T-GPT-Orqz
+  - 台湾WAP-T-GPT-rfqh
+  - 台湾WAP-T-GPT-YsHI
+  - 台湾WAP-T-GPT-IPsy
+  - 台湾WAP-T-GPT-OuC9
   - 台湾WAP-T-GPT-D5GQ
   - 台湾WAP-T-GPT-P9vS
-  - 澳大利亚AU-T-ulWr
-  - 台湾WAP-T-GPT-OMOZ
-  - 台湾WAP-T-GPT-rfqh
-  - 台湾WAP-T-GPT-7DFd
-  - 台湾WAP-T-GPT
-  - 澳大利亚AU-T-WtWF
-  - 台湾WAP-T-GPT-YsHI
-  - 台湾WAP-T-GPT-PMfx
-  - 台湾WAP-T-GPT-IPsy
-  - 美国USLA-T-GPT-tPYz
-  - 美国USLA-T-GPT-ltA2
-  - 美国USLA-T-GPT-3Y1T
-  - 澳大利亚AU-T-vXXU
-  - 澳大利亚AU-T-3ZjF
-  - 英国UK-T-2P69
-  - 美国USLA-T-GPT-Y2nU
-  - 美国USLA-T-GPT
-  - 美国USLA-T-GPT-sOP7
-  - 新加坡SG-T-PkxV
-  - 新加坡SG-T-t5eV
-  - 英国UK-T-9bTO
-  - 新加坡SG-T-jC0K
+  - 台湾WAP-T-GPT-gfRi
   - 澳大利亚AU-T-B4AQ
-  - 美国USLA-T-GPT-pa4s
-  - 澳大利亚AU-T-FTDp
-  - 美国USLA-T-GPT-vy3b
-  - 澳大利亚AU-T-QzUC
+  - 澳大利亚AU-T-WtWF
+  - 台湾WAP-T-GPT
+  - 澳大利亚AU-T-ulWr
+  - 美国USLA-T-GPT-ltA2
+  - 台湾WAP-T-GPT-PMfx
+  - 美国USLA-T-GPT-Y2nU
+  - 美国USLA-T-GPT-tPYz
   - 新加坡SG-T-3plv
-  - 澳大利亚AU-T-CdpO
+  - 越南VN-T-sNz8
+  - 新加坡SG-T-jC0K
+  - 新加坡SG-T-PkxV
+  - 澳大利亚AU-T-FTDp
+  - 澳大利亚AU-T-QzUC
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
   proxies:
-  - 日本JP-T-7fs6
-  - 台湾WAP-T-GPT-OuC9
   - 日本JP-T-KwGS
-  - 日本JP-T-CjtL
-  - 日本JP-T-SiE6
-  - 日本JP-T-ZtHY
-  - 日本JP-T-oUJn
-  - 日本JP-T-TzPC
-  - 日本JP-T-Rvm8
   - 日本JP-T-gEwa
-  - 台湾WAP-T-GPT-Orqz
-  - 台湾WAP-T-GPT-gfRi
   - 日本JP-T-pR3s
-  - 越南VN-T-sNz8
+  - 日本JP-T-ZtHY
+  - 日本JP-T-7fs6
+  - 日本JP-T-TzPC
+  - 日本JP-T-SiE6
+  - 日本JP-T-oUJn
+  - 日本JP-T-CjtL
+  - 日本JP-T-Rvm8
+  - 台湾WAP-T-GPT-OMOZ
   - 台湾WAP-T-GPT-S4e5
+  - 台湾WAP-T-GPT-7DFd
+  - 台湾WAP-T-GPT-Orqz
+  - 台湾WAP-T-GPT-rfqh
+  - 台湾WAP-T-GPT-YsHI
+  - 台湾WAP-T-GPT-IPsy
+  - 台湾WAP-T-GPT-OuC9
   - 台湾WAP-T-GPT-D5GQ
   - 台湾WAP-T-GPT-P9vS
-  - 澳大利亚AU-T-ulWr
-  - 台湾WAP-T-GPT-OMOZ
-  - 台湾WAP-T-GPT-rfqh
-  - 台湾WAP-T-GPT-7DFd
-  - 台湾WAP-T-GPT
-  - 澳大利亚AU-T-WtWF
-  - 台湾WAP-T-GPT-YsHI
-  - 台湾WAP-T-GPT-PMfx
-  - 台湾WAP-T-GPT-IPsy
-  - 美国USLA-T-GPT-tPYz
-  - 美国USLA-T-GPT-ltA2
-  - 美国USLA-T-GPT-3Y1T
-  - 澳大利亚AU-T-vXXU
-  - 澳大利亚AU-T-3ZjF
-  - 英国UK-T-2P69
-  - 美国USLA-T-GPT-Y2nU
-  - 美国USLA-T-GPT
-  - 美国USLA-T-GPT-sOP7
-  - 新加坡SG-T-PkxV
-  - 新加坡SG-T-t5eV
-  - 英国UK-T-9bTO
-  - 新加坡SG-T-jC0K
+  - 台湾WAP-T-GPT-gfRi
   - 澳大利亚AU-T-B4AQ
-  - 美国USLA-T-GPT-pa4s
-  - 澳大利亚AU-T-FTDp
-  - 美国USLA-T-GPT-vy3b
-  - 澳大利亚AU-T-QzUC
+  - 澳大利亚AU-T-WtWF
+  - 台湾WAP-T-GPT
+  - 澳大利亚AU-T-ulWr
+  - 美国USLA-T-GPT-ltA2
+  - 台湾WAP-T-GPT-PMfx
+  - 美国USLA-T-GPT-Y2nU
+  - 美国USLA-T-GPT-tPYz
   - 新加坡SG-T-3plv
-  - 澳大利亚AU-T-CdpO
+  - 越南VN-T-sNz8
+  - 新加坡SG-T-jC0K
+  - 新加坡SG-T-PkxV
+  - 澳大利亚AU-T-FTDp
+  - 澳大利亚AU-T-QzUC
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
