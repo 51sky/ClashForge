@@ -31,112 +31,7 @@ dns:
     ipcidr:
     - 240.0.0.0/4
     - 0.0.0.0/32
-proxies:
-- name: 台湾WAP-T-GPT
-  type: trojan
-  server: hinet.mjt000.com
-  port: 443
-  password: 5d335ddf-2ae7-4331-835d-6f9593fe8287
-  udp: true
-  sni: hinet.mjt000.com
-- name: 台湾WAP-T-GPT-D5GQ
-  type: trojan
-  server: hinet.mjt000.com
-  port: 443
-  password: 796c46f8-82a3-44e4-9937-0e5da73895dc
-  udp: true
-  sni: hinet.mjt000.com
-- name: 台湾WAP-T-GPT-rfqh
-  type: trojan
-  server: hinet.mjt000.com
-  port: 443
-  password: a9cda9d0-5802-400a-97da-66ceca68e8a2
-  udp: true
-  sni: hinet.mjt000.com
-- name: 美国USLA-T-GPT-Y2nU
-  type: trojan
-  server: usla.mjt000.com
-  port: 443
-  password: d384ad6d-d259-45eb-ba2e-1799fa426ed4
-  udp: true
-  sni: usla.mjt000.com
-- name: 澳大利亚AU-T-ulWr
-  type: trojan
-  server: au.mjt000.com
-  port: 443
-  password: d384ad6d-d259-45eb-ba2e-1799fa426ed4
-  udp: true
-  sni: au.mjt000.com
-- name: 台湾WAP-T-GPT-P9vS
-  type: trojan
-  server: hinet.mjt000.com
-  port: 443
-  password: 06322978-709f-423e-b10b-fc2a845d9564
-  udp: true
-  sni: hinet.mjt000.com
-- name: 美国USLA-T-GPT-ltA2
-  type: trojan
-  server: usla.mjt000.com
-  port: 443
-  password: 61339b6c-df0c-423c-93a6-84d7d4e234d1
-  udp: true
-  sni: usla.mjt000.com
-- name: 台湾WAP-T-GPT-S4e5
-  type: trojan
-  server: hinet.mjt000.com
-  port: 443
-  password: 61339b6c-df0c-423c-93a6-84d7d4e234d1
-  udp: true
-  sni: hinet.mjt000.com
-- name: 美国USLA-T-GPT-tPYz
-  type: trojan
-  server: usla.mjt000.com
-  port: 443
-  password: 5adfc828-440d-4022-9571-0299a905b98e
-  udp: true
-  sni: usla.mjt000.com
-- name: 台湾WAP-T-GPT-7DFd
-  type: trojan
-  server: hinet.mjt000.com
-  port: 443
-  password: 5adfc828-440d-4022-9571-0299a905b98e
-  udp: true
-  sni: hinet.mjt000.com
-- name: 澳大利亚AU-T-WtWF
-  type: trojan
-  server: au.mjt000.com
-  port: 443
-  password: 5adfc828-440d-4022-9571-0299a905b98e
-  udp: true
-  sni: au.mjt000.com
-- name: 台湾WAP-T-GPT-PMfx
-  type: trojan
-  server: hinet.mjt000.com
-  port: 443
-  password: b6e5e633-a297-4614-88d5-49f94cda618f
-  udp: true
-  sni: hinet.mjt000.com
-- name: 台湾WAP-T-GPT-OMOZ
-  type: trojan
-  server: hinet.mjt000.com
-  port: 443
-  password: f89748f5-cee5-44dd-89fd-f6d49645d060
-  udp: true
-  sni: hinet.mjt000.com
-- name: 澳大利亚AU-T-B4AQ
-  type: trojan
-  server: au.mjt000.com
-  port: 443
-  password: f89748f5-cee5-44dd-89fd-f6d49645d060
-  udp: true
-  sni: au.mjt000.com
-- name: 台湾WAP-T-GPT-OuC9
-  type: trojan
-  server: hinet.mjt000.com
-  port: 443
-  password: 14c564dd-aad6-4bf7-b6bb-02a360132dbf
-  udp: true
-  sni: hinet.mjt000.com
+proxies: []
 proxy-groups:
 - name: 节点选择
   type: select
@@ -148,64 +43,19 @@ proxy-groups:
 - name: 自动选择
   type: url-test
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
-  proxies:
-  - 台湾WAP-T-GPT-7DFd
-  - 台湾WAP-T-GPT-OMOZ
-  - 台湾WAP-T-GPT-D5GQ
-  - 台湾WAP-T-GPT-S4e5
-  - 台湾WAP-T-GPT-OuC9
-  - 台湾WAP-T-GPT-rfqh
-  - 台湾WAP-T-GPT-PMfx
-  - 台湾WAP-T-GPT
-  - 美国USLA-T-GPT-tPYz
-  - 美国USLA-T-GPT-ltA2
-  - 美国USLA-T-GPT-Y2nU
-  - 澳大利亚AU-T-B4AQ
-  - 澳大利亚AU-T-WtWF
-  - 台湾WAP-T-GPT-P9vS
-  - 澳大利亚AU-T-ulWr
+  proxies: []
   url: http://www.pinterest.com
   interval: 300
   tolerance: 50
 - name: 故障转移
   type: fallback
   exclude-filter: (?i)中国|China|CN|电信|移动|联通
-  proxies:
-  - 台湾WAP-T-GPT-7DFd
-  - 台湾WAP-T-GPT-OMOZ
-  - 台湾WAP-T-GPT-D5GQ
-  - 台湾WAP-T-GPT-S4e5
-  - 台湾WAP-T-GPT-OuC9
-  - 台湾WAP-T-GPT-rfqh
-  - 台湾WAP-T-GPT-PMfx
-  - 台湾WAP-T-GPT
-  - 美国USLA-T-GPT-tPYz
-  - 美国USLA-T-GPT-ltA2
-  - 美国USLA-T-GPT-Y2nU
-  - 澳大利亚AU-T-B4AQ
-  - 澳大利亚AU-T-WtWF
-  - 台湾WAP-T-GPT-P9vS
-  - 澳大利亚AU-T-ulWr
+  proxies: []
   url: http://www.pinterest.com
   interval: 300
 - name: 手动选择
   type: select
-  proxies:
-  - 台湾WAP-T-GPT-7DFd
-  - 台湾WAP-T-GPT-OMOZ
-  - 台湾WAP-T-GPT-D5GQ
-  - 台湾WAP-T-GPT-S4e5
-  - 台湾WAP-T-GPT-OuC9
-  - 台湾WAP-T-GPT-rfqh
-  - 台湾WAP-T-GPT-PMfx
-  - 台湾WAP-T-GPT
-  - 美国USLA-T-GPT-tPYz
-  - 美国USLA-T-GPT-ltA2
-  - 美国USLA-T-GPT-Y2nU
-  - 澳大利亚AU-T-B4AQ
-  - 澳大利亚AU-T-WtWF
-  - 台湾WAP-T-GPT-P9vS
-  - 澳大利亚AU-T-ulWr
+  proxies: []
 rules:
 - DOMAIN,app.adjust.com,DIRECT
 - DOMAIN,bdtj.tagtic.cn,DIRECT
